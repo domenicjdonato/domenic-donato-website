@@ -39,11 +39,14 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
+        plugins: [        
+          `gatsby-remark-label-ref`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
+              showCaptions: true,
+              markdownCaptions: true,
             },
           },
           {
@@ -79,10 +82,7 @@ module.exports = {
                 dark: "Default Dark+"
               },
             }
-          },
-          // {
-          //   resolve: "gatsby-remark-external-links",
-          // },
+          },                    
           `gatsby-remark-external-links`,
           `gatsby-remark-numbered-footnotes`,
           `gatsby-remark-autolink-headers`,

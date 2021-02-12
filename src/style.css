@@ -363,3 +363,7 @@ a:focus {
   color: var(--color-primary);
   font-weight: 700
 }
+
+.gatsby-resp-image-figcaption {  
+  text-align: center;  
+}

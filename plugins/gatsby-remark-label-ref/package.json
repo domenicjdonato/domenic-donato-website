@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-remark-label-ref",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Enables Latex style \\label{type:friendly-name} and \\ref{type:friendly-name} workflow.",
+  "main": "index.js",
+  "author": "Domenic Donato",
+  "license": "MIT",
+  "dependencies": {
+    "mdast-util-to-string": "^2.0.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
